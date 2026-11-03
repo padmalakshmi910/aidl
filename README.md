@@ -35,9 +35,9 @@ Developed by:G.Padma Lakshmi
 Registeration Number :212225230206
 */
 ```
-### SERVER:
+## SERVER:
 
-## AndroidManifest.xml
+### AndroidManifest.xml
 
 ```
 <?xml version="1.0" encoding="utf-8"?>
@@ -67,7 +67,7 @@ Registeration Number :212225230206
 </manifest>
 ```
 
-## SmartParkingService.java
+### SmartParkingService.java
 
 ```
 package com.example.aidlserver;
@@ -152,7 +152,7 @@ public class SmartParkingService extends Service {
 }
 ```
 
-## ISmartParkingService.aidl
+### ISmartParkingService.aidl
 
 ```
 package com.example.aidlserver;
@@ -178,9 +178,9 @@ interface ISmartParkingService {
 }
 ```
 
-### CLIENT:
+## CLIENT:
 
-## AndroidManifest.xml
+### AndroidManifest.xml
 
 ```
 <?xml version="1.0" encoding="utf-8"?>
@@ -219,7 +219,7 @@ interface ISmartParkingService {
 </manifest>
 ```
 
-## MainActivity.java
+### MainActivity.java
 
 ```
 package com.example.aidlclient;
@@ -424,7 +424,7 @@ public class MainActivity extends Activity {
 }
 ```
 
-## ISmartParkingService.aidl
+### ISmartParkingService.aidl
 
 ```
 package com.example.aidlserver;
@@ -450,7 +450,7 @@ interface ISmartParkingService {
 }
 ```
 
-## activity_main.xml
+### activity_main.xml
 
 ```
 <?xml version="1.0" encoding="utf-8"?>
