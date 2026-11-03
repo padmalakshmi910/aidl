@@ -29,11 +29,9 @@ Step 7: Save and run the application.
 
 ## PROGRAM:
 ```
-/*
-Program to print the client/server services using AIDL”.
+Program to print the client/server services using AIDL.
 Developed by:G.Padma Lakshmi
 Registeration Number :212225230206
-*/
 ```
 ## SERVER:
 
